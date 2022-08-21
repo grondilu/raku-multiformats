@@ -16,5 +16,5 @@ token base-encoded-data {
 }
 
 token hex-lower-case { [ $<byte> = <[0..9a..f]>**2 ]+ }
-token hex-upper-case { [ $<byte> = <[0..9a..f]>**2 ]+ }
+token hex-upper-case { [ $<byte> = <[0..9A..F]>**2 ]+ }
 token base58btc { <@Base58::alphabet>+ }
