@@ -1,0 +1,15 @@
+{
+  "name":  "MultiBase",
+  "auth":  "github:grondilu",
+  "version": "0.0.1",
+  "license": "MIT",
+  "provides": {
+    "MultiBase": "lib/MultiBase.rakumod"
+  },
+  "depends": [
+    "LEB128",
+    "Base58"
+  ],
+  "tags":    [ "multibase", "multiformats", "encoding" ],
+  "source-url": "git@github.com:grondilu/raku-multibase.git"
+}
