@@ -1,10 +1,10 @@
 {
-  "name":  "MultiBase",
+  "name":  "Multibase",
   "auth":  "github:grondilu",
   "version": "0.0.2",
   "license": "MIT",
   "provides": {
-    "MultiBase": "lib/MultiBase.rakumod"
+    "Multibase": "lib/Multibase.rakumod"
   },
   "depends": [
     "LEB128",
