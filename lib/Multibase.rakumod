@@ -14,7 +14,7 @@ multi decode(Str $ where /^^B(<[A..Z2..7=]>+)/) {
     return blob8.new: .out.slurp: :close;
   }
 }
-multi decode(Str $ where /^^z(<@Base58::alphabet>*)$$/ --> Blob) {
+multi decode(Str $ where /^^z(<@Base58::alphabet>*)$$/) {
   Base58::decode $0.Str;
 }
 multi decode(Str $ where /^^M(<+alnum+[-_=]>+)/) {
