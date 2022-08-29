@@ -1,3 +1,3 @@
-# Multibase in raku
+# Multiformats in raku
 
-[multiformats](https://multiformats.io)' multibase in raku
+See [multiformats](https://multiformats.io).

@@ -1,15 +1,16 @@
 {
-  "name":  "Multibase",
+  "name":  "Multiformats",
   "auth":  "github:grondilu",
   "version": "0.0.3",
   "license": "MIT",
   "provides": {
-    "Multibase": "lib/Multibase.rakumod"
+    "Multibase": "lib/Multibase.rakumod",
+    "Multihash": "lib/Multihash.rakumod"
   },
   "depends": [
     "LEB128",
     "Base58"
   ],
-  "tags":    [ "multibase", "multiformats", "encoding" ],
-  "source-url": "git@github.com:grondilu/raku-multibase.git"
+  "tags":    [ "multibase", "multihash", "multiformats", "encoding" ],
+  "source-url": "git@github.com:grondilu/raku-multiformats.git"
 }
