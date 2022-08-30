@@ -1,7 +1,7 @@
 {
   "name":  "Multiformats",
   "auth":  "github:grondilu",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "license": "MIT",
   "provides": {
     "Multibase": "lib/Multibase.rakumod",
