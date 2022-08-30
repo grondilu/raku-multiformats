@@ -16,4 +16,6 @@ is Multihash::sha512(input), blob8.new(
   '132052eb4dd19f1ec522859e12d89706156570f8fbab1824870bc6f8c7d235eef5f4'.comb(2).map({:16($_)})
 ), 'SHA2-512 (aka SHA512)';
 
+done-testing;
+
 # vi: ft=raku
