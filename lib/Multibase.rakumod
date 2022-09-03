@@ -16,6 +16,7 @@ package Base256Emoji {
 
 our proto decode($ --> Blob) {*}
 our proto encode(Blob $, *%) {*}
+multi encode(Str $s, *%h) { samewith $s.encode, |%h }
 
 multi encode($b, :$identity!) { $b.new: 0, $b.list }
 multi encode($b, :$base16upper!) { 'F' ~ $b>>.fmt("%02X").join }
